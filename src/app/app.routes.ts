@@ -1,4 +1,4 @@
 import { Routes } from '@angular/router';
 import { MessageComponent } from './message/message.component';
 
-export const routes: Routes = [{ path: '', component: MessageComponent }];
+export const routes: Routes = [{ path: '**', component: MessageComponent }];
